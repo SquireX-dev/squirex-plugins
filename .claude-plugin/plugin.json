@@ -1,0 +1,30 @@
+{
+  "name": "squirex",
+  "version": "0.0.0-dev",
+  "description": "SquireX agent-security scanner for Agentforce, ServiceNow, MuleSoft Agent Fabric, and MCP. Local stdio MCP server with 126 rules. Code is analyzed on your machine.",
+  "author": {
+    "name": "SquireX",
+    "email": "hello@squirex.dev"
+  },
+  "homepage": "https://squirex.dev",
+  "repository": "https://github.com/SquireX-dev/squirex-plugins",
+  "license": "MIT",
+  "keywords": ["security", "agentforce", "servicenow", "mulesoft", "mcp", "sast"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "userConfig": {
+    "SQUIREX_PROJECT_DIR": {
+      "type": "string",
+      "title": "Project directory",
+      "description": "Absolute path of the project to scan.",
+      "required": false
+    },
+    "SQUIREX_LICENSE_KEY": {
+      "type": "string",
+      "title": "License key",
+      "description": "Pro license key for private-repo CI. Optional for local/public scans.",
+      "sensitive": true,
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "squirex": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "@squirex.dev/mcp-server@0.0.0-dev"
+      ],
+      "env": {
+        "SQUIREX_PROJECT_DIR": "${SQUIREX_PROJECT_DIR}",
+        "SQUIREX_LICENSE_KEY": "${SQUIREX_LICENSE_KEY}"
+      }
+    }
+  }
+}

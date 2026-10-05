@@ -1,0 +1,9 @@
+{
+  "name": "squirex",
+  "version": "0.0.0-dev",
+  "description": "SquireX agent-security scanner (Agentforce, ServiceNow, MuleSoft, MCP).",
+  "author": "SquireX <hello@squirex.dev>",
+  "license": "MIT",
+  "mcpServers": "../mcp.json",
+  "skills": "../skills/"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "squirex",
+  "displayName": "SquireX",
+  "version": "0.0.0-dev",
+  "description": "Agent-security scanner for Salesforce Agentforce, ServiceNow Now Assist, MuleSoft Agent Fabric, and MCP servers.",
+  "author": {
+    "name": "SquireX",
+    "email": "hello@squirex.dev",
+    "url": "https://squirex.dev"
+  },
+  "homepage": "https://squirex.dev",
+  "license": "MIT",
+  "keywords": ["security", "agentforce", "servicenow", "mulesoft", "mcp", "sarif"],
+  "logo": "assets/icon.png",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "shortDescription": "Agent security scanner",
+        "longDescription": "SquireX scans AI-agent metadata and code for capability, privilege, prompt-injection, and supply-chain issues across Salesforce Agentforce, ServiceNow Now Assist, MuleSoft Agent Fabric, and MCP servers. This plugin package runs a local stdio MCP server; a hosted HTTPS MCP (required for the OpenAI public directory / Dots) is planned separately. Entitlements for private repos are checked via a SquireX license key — checkout stays on squirex.dev.",
+        "category": "Developer Tools",
+        "developerName": "SquireX",
+        "websiteURL": "https://squirex.dev",
+        "supportURL": "https://squirex.dev/support",
+        "privacyPolicyURL": "https://squirex.dev/privacy-policy",
+        "termsOfServiceURL": "https://squirex.dev/terms-of-service"
+      }
+    }
+  }
+}

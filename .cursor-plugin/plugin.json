@@ -1,0 +1,39 @@
+{
+  "name": "squirex",
+  "displayName": "SquireX",
+  "version": "0.0.0-dev",
+  "description": "Scan Salesforce Agentforce, ServiceNow Now Assist, MuleSoft Agent Fabric, and MCP servers for agent-security issues. Local stdio MCP — code stays on your machine.",
+  "author": {
+    "name": "SquireX",
+    "email": "hello@squirex.dev",
+    "url": "https://squirex.dev"
+  },
+  "homepage": "https://squirex.dev",
+  "repository": "https://github.com/SquireX-dev/squirex-plugins",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "agent-security",
+    "agentforce",
+    "salesforce",
+    "servicenow",
+    "mulesoft",
+    "mcp",
+    "sarif",
+    "sast"
+  ],
+  "logo": "assets/logo.svg",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "SQUIREX_PROJECT_DIR": {
+      "type": "string",
+      "description": "Absolute path of the project to scan (SFDX / ServiceNow / MCP workspace)."
+    },
+    "SQUIREX_LICENSE_KEY": {
+      "type": "string",
+      "description": "Pro license key for private-repo CI scans. Not required for local/public scans.",
+      "sensitive": true
+    }
+  }
+}
