@@ -1,7 +1,7 @@
 {
   "name": "squirex",
   "displayName": "SquireX",
-  "version": "0.0.0-dev",
+  "version": "4.0.1",
   "description": "Scan Salesforce Agentforce, ServiceNow Now Assist, MuleSoft Agent Fabric, and MCP servers for agent-security issues. Local stdio MCP — code stays on your machine.",
   "author": {
     "name": "SquireX",
