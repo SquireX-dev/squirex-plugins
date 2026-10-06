@@ -1,7 +1,7 @@
 {
   "name": "squirex",
-  "version": "0.0.0-dev",
-  "description": "SquireX agent-security scanner for Agentforce, ServiceNow, MuleSoft Agent Fabric, and MCP. Local stdio MCP server with 126 rules. Code is analyzed on your machine.",
+  "version": "4.0.1",
+  "description": "SquireX agent-security scanner for Agentforce, ServiceNow, MuleSoft Agent Fabric, and MCP. Local stdio MCP server with 140 rules. Code is analyzed on your machine.",
   "author": {
     "name": "SquireX",
     "email": "hello@squirex.dev"
